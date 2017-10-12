@@ -87,7 +87,7 @@ public interface Features {
 
         @Override
         public boolean isArchiveCreationEnabled() {
-            return isEnabled(R.bool.feature_archive_creation);
+            return true;
         }
 
         @Override
@@ -117,7 +117,7 @@ public interface Features {
 
         @Override
         public boolean isFoldersInSearchResultsEnabled() {
-            return isEnabled(R.bool.feature_folders_in_search_results);
+            return true;
         }
 
         private boolean isFunPolicyEnabled() {
@@ -126,7 +126,7 @@ public interface Features {
 
         @Override
         public boolean isGestureScaleEnabled() {
-            return isEnabled(R.bool.feature_gesture_scale);
+            return true;
         }
 
         public boolean isInspectorEnabled() {
